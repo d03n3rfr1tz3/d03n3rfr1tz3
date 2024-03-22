@@ -1,11 +1,13 @@
-name: Profile Metrics
+name: Profile Metrics - Languages
 on:
   # Schedule daily updates
   schedule: [{cron: "0 2 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
-  push: {branches: ["main"]}
+  push:
+    branches: ["main"]
+    paths: ["**metrics-languages.yml"]
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -20,7 +22,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: d03n3rfr1tz3
           template: classic
-          base: header, activity, metadata
+          base: header, activity
           config_animations: yes
           config_display: columns
           config_timezone: Europe/Berlin
