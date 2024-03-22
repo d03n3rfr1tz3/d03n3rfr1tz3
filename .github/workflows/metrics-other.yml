@@ -1,0 +1,37 @@
+name: Profile Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 3 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-other.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: d03n3rfr1tz3
+          template: classic
+          base: header
+          config_animations: yes
+          config_display: columns
+          config_timezone: Europe/Berlin
+          plugin_activity: no
+          plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://www.d03n3r.de/
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: ${{ secrets.STEAM_USER }}
+          plugin_steam_achievements_limit: 1
+          plugin_steam_games_limit: 1
+          plugin_steam_recent_games_limit: 1
+          
