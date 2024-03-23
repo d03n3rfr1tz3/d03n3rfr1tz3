@@ -31,4 +31,19 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_traffic: yes
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-repositories-large.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: d03n3rfr1tz3
+          template: classic
+          base: repositories
+          config_animations: yes
+          config_display: large
+          config_timezone: Europe/Berlin
+          plugin_activity: no
+          plugin_gists: yes
+          plugin_lines: yes
+          plugin_notable: yes
+          plugin_traffic: yes
           
