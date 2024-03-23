@@ -24,7 +24,7 @@ jobs:
           template: classic
           base: repositories
           config_animations: yes
-          config_display: columns
+          config_display: regular
           config_timezone: Europe/Berlin
           plugin_activity: no
           plugin_gists: yes
