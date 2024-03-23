@@ -34,8 +34,8 @@ jobs:
           plugin_languages: yes
           plugin_languages_colors: github
           plugin_languages_details: bytes-size, lines, percentage
-          plugin_languages_ignored: smalltalk
-          plugin_languages_limit: 20
+          plugin_languages_ignored: Java, Smalltalk
+          plugin_languages_limit: 0
           plugin_languages_other: yes
           plugin_languages_threshold: 0.25%
       - uses: lowlighter/metrics@latest
@@ -56,8 +56,8 @@ jobs:
           plugin_languages: yes
           plugin_languages_colors: github
           plugin_languages_details: bytes-size, lines, percentage
-          plugin_languages_ignored: smalltalk
-          plugin_languages_limit: 20
+          plugin_languages_ignored: Java, Smalltalk
+          plugin_languages_limit: 0
           plugin_languages_other: yes
           plugin_languages_threshold: 0.25%
           
