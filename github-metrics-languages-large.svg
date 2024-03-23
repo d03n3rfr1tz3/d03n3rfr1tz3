@@ -76,9 +76,8 @@
                     <rect mask="url(#languages-bar)" x="827.494301663768" y="0" width="40.15966851578854" height="8" fill="#4F5D95"/>
                     <rect mask="url(#languages-bar)" x="867.6539701795565" y="0" width="19.990948810038187" height="8" fill="#563d7c"/>
                     <rect mask="url(#languages-bar)" x="887.6449189895948" y="0" width="13.304506957967215" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="900.949425947562" y="0" width="9.133438997887726" height="8" fill="#596706"/>
-                    <rect mask="url(#languages-bar)" x="910.0828649454497" y="0" width="3.566655559000242" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="913.6495205044499" y="0" width="6.35047949555002" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="900.949425947562" y="0" width="3.566655559000242" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="904.5160815065623" y="0" width="15.483918493437747" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -123,13 +122,13 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#596706" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#c6538c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Smalltalk
+                                SCSS
                             </div>
                             <small>
-                                <div>211 kB</div>
-                                <div>0.99%</div>
+                                <div>82.5 kB</div>
+                                <div>0.39%</div>
                             </small>
                         </div>
                     </section>
@@ -149,13 +148,13 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#c6538c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                SCSS
+                                Other
                             </div>
                             <small>
-                                <div>82.5 kB</div>
-                                <div>0.39%</div>
+                                <div>358 kB</div>
+                                <div>1.68%</div>
                             </small>
                         </div>
                     </section>
@@ -170,18 +169,6 @@
                             <small>
                                 <div>462 kB</div>
                                 <div>2.17%</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Other
-                            </div>
-                            <small>
-                                <div>146 kB</div>
-                                <div>0.69%</div>
                             </small>
                         </div>
                     </section>
@@ -388,7 +375,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 88.1k out of 98m repositories</span>
+                                    <span class="gh">ranked 88.1k out of 89.9m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">507</div>
                                     </div>
@@ -479,7 +466,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="31.934673366834172 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="35.050251256281406 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -501,10 +488,10 @@
                                     <span class="prefix"></span>
                                     Deployer
                                     <div class="value-wrapper">
-                                        <div class="value">42</div>
+                                        <div class="value">46</div>
                                     </div>
                                 </div>
-                                <div class="text">Repositories have been deployed 42 times</div>
+                                <div class="text">Repositories have been deployed 46 times</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -592,7 +579,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 1.19m out of 98m repositories</span>
+                                    <span class="gh">ranked 1.19m out of 89.9m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">9</div>
                                     </div>
