@@ -1,7 +1,7 @@
 name: Profile Metrics - Other
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 3 * * *"}]
+  schedule: [{cron: "0 3/6 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
@@ -30,6 +30,9 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://www.d03n3r.de/
+      - name: Sleep for 30 seconds
+        run: sleep 30s
+        shell: bash
       - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics-other-large.svg
