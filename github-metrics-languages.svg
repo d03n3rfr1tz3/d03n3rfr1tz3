@@ -33,17 +33,17 @@
                                     <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -71,16 +71,16 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="306.7754504232776" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="306.7754504232776" y="0" width="106.06614476041746" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="412.84159518369506" y="0" width="20.25622776734082" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="433.09782295103594" y="0" width="9.964636630205169" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="443.06245958124106" y="0" width="6.63185938655658" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="449.69431896779764" y="0" width="1.7778259035255275" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="451.47214487132317" y="0" width="1.447273518191158" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="452.91941838951436" y="0" width="1.3961491741646666" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="454.31556756367905" y="0" width="0.6934425879396043" height="8" fill="#878787"/>
-                    <rect mask="url(#languages-bar)" x="455.0090101516186" y="0" width="4.990989848381414" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="306.7695166023983" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="306.7695166023983" y="0" width="106.07299074531359" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="412.84250734771194" y="0" width="20.25583596015059" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="433.09834330786254" y="0" width="9.964443888677744" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="443.0627871965402" y="0" width="6.631731109454739" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="449.694518305995" y="0" width="1.777791515831038" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="451.472309821826" y="0" width="1.447245524224208" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="452.91955534605023" y="0" width="1.3961221690731287" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="454.3156775151233" y="0" width="0.6934291749885315" height="8" fill="#878787"/>
+                    <rect mask="url(#languages-bar)" x="455.0091066901119" y="0" width="4.990893309888096" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -228,7 +228,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="63.86721423682407 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="63.95208761122519 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -387,7 +387,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="3.1 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -409,10 +409,10 @@
                                     <span class="prefix">Great</span>
                                     deployer
                                     <div class="value-wrapper">
-                                        <div class="value">200</div>
+                                        <div class="value">206</div>
                                     </div>
                                 </div>
-                                <div class="text">Repositories have been deployed 200 times</div>
+                                <div class="text">Repositories have been deployed 206 times</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -448,7 +448,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 88.6k out of 204m repositories</span>
+                                    <span class="gh">ranked 88.6k out of 202m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">511</div>
                                     </div>
@@ -504,7 +504,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="59.19597989949749 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="59.9748743718593 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" fill-rule="evenodd">
@@ -523,10 +523,10 @@
                                     <span class="prefix"></span>
                                     Stargazer
                                     <div class="value-wrapper">
-                                        <div class="value">77</div>
+                                        <div class="value">78</div>
                                     </div>
                                 </div>
-                                <div class="text">Starred 77 repositories</div>
+                                <div class="text">Starred 78 repositories</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -614,7 +614,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 1.19m out of 204m repositories</span>
+                                    <span class="gh">ranked 1.19m out of 202m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">9</div>
                                     </div>
