@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@master #lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics-languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -26,7 +26,7 @@ jobs:
           config_animations: yes
           config_display: regular
           config_timezone: Europe/Berlin
-          plugin_achievements: yes
+          plugin_achievements: no #yes
           plugin_achievements_display: compact
           plugin_achievements_ignored: chatter, follower
           plugin_achievements_limit: 12
@@ -38,7 +38,7 @@ jobs:
           plugin_languages_limit: 0
           plugin_languages_other: yes
           plugin_languages_threshold: 0.15%
-      - uses: gh-metrics/metrics@master #lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics-languages-large.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -48,7 +48,7 @@ jobs:
           config_animations: yes
           config_display: large
           config_timezone: Europe/Berlin
-          plugin_achievements: yes
+          plugin_achievements: no #yes
           plugin_achievements_display: compact
           plugin_achievements_ignored: chatter, follower
           plugin_achievements_limit: 12
