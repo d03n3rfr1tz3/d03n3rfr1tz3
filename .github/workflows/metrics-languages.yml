@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: stalomeow/metrics@projects-v2 #lowlighter/metrics@latest
+      - uses: gh-metrics/metrics@master #lowlighter/metrics@latest
         with:
           filename: github-metrics-languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -38,7 +38,7 @@ jobs:
           plugin_languages_limit: 0
           plugin_languages_other: yes
           plugin_languages_threshold: 0.15%
-      - uses: stalomeow/metrics@projects-v2 #lowlighter/metrics@latest
+      - uses: gh-metrics/metrics@master #lowlighter/metrics@latest
         with:
           filename: github-metrics-languages-large.svg
           token: ${{ secrets.METRICS_TOKEN }}
