@@ -26,9 +26,9 @@ jobs:
           config_animations: yes
           config_display: regular
           config_timezone: Europe/Berlin
-          plugin_achievements: no #yes
+          plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_ignored: chatter, follower
+          plugin_achievements_ignored: chatter, follower, manager
           plugin_achievements_limit: 12
           plugin_activity: no
           plugin_languages: yes
@@ -48,9 +48,9 @@ jobs:
           config_animations: yes
           config_display: large
           config_timezone: Europe/Berlin
-          plugin_achievements: no #yes
+          plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_ignored: chatter, follower
+          plugin_achievements_ignored: chatter, follower, manager
           plugin_achievements_limit: 12
           plugin_activity: no
           plugin_languages: yes
